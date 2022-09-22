@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      a
+      <div className="topcenter">
+        <h1>
+          Oi, mo, desculpa ser tão direto:
+        </h1>
+      </div>
+      <div><a href="https://abre.ai/e5cd"><button className="button">Clica aqui</button></a>
+      </div>
+      <div className="center">
+        <div className="heart"></div>
+      </div>
     </div>
   )
 }
-
 export default App
